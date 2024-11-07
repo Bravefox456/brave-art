@@ -44,7 +44,7 @@ const WorkWithUs = () => {
           resume and cover letter to{" "}
           <a href="mailto:careers@mechartista.com">careers@mechartistatechnocrafts.com</a>.
         </p>
-        <p>We look forward to hearing from you!!</p>
+        <p>We look forward to hearing from you!</p>
       </div>
     </div>
   );
