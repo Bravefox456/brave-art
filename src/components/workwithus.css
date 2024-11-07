@@ -1,0 +1,74 @@
+.work__withus {
+  padding: 2rem;
+  background-color: #1c1c1c; /* Dark background */
+  color: #f0f0f0; /* Light text color */
+}
+
+.work__withus-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.gradient__text_2 {
+  background: linear-gradient(90deg, #00f260, #0575e6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.work__withus-description,
+.work__withus-positions,
+.work__withus-apply {
+  margin-bottom: 2rem;
+}
+
+.work__withus-positions ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.work__withus-positions li {
+  background: #2a2a2a; /* Darker background for list items */
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .work__withus {
+    padding: 1rem; /* Reduced padding for smaller screens */
+  }
+
+  .work__withus-header h1 {
+    font-size: 1.8rem; /* Smaller heading font size */
+  }
+
+  .work__withus-header p,
+  .work__withus-description p,
+  .work__withus-apply p {
+    font-size: 0.9rem; /* Smaller paragraph font size */
+  }
+
+  .work__withus-positions ul {
+    padding-left: 1rem; /* Add padding to the left */
+  }
+
+  .work__withus-positions li {
+    font-size: 0.9rem; /* Smaller font size for list items */
+  }
+}
+
+@media (max-width: 480px) {
+  .work__withus-header h1 {
+    font-size: 1.5rem; /* Even smaller heading font size */
+  }
+
+  .work__withus-header p,
+  .work__withus-description p,
+  .work__withus-apply p {
+    font-size: 0.8rem; /* Even smaller paragraph font size */
+  }
+
+  .work__withus-positions li {
+    padding: 0.5rem; /* Less padding for list items */
+  }
+}

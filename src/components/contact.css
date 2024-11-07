@@ -1,0 +1,63 @@
+.gpt3__contactus {
+  padding: 2rem;
+  background-color: #1c1c1c; /* Dark background */
+  color: #f0f0f0; /* Light text color */
+}
+
+.gpt3__contactus-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.gradient__text_1 {
+  background: linear-gradient(90deg, #00f260, #0575e6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gpt3__contactus-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gpt3__contactus-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+
+.gpt3__contactus-form-group {
+  margin-bottom: 1rem;
+}
+
+.gpt3__contactus-form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.gpt3__contactus-form-group input,
+.gpt3__contactus-form-group textarea {
+  padding: 0.5rem;
+  border: 1px solid #444; /* Darker border */
+  border-radius: 4px;
+  width: 100%;
+  background-color: #2a2a2a; /* Dark input background */
+  color: #f0f0f0; /* Light input text */
+}
+
+.gpt3__contactus-button {
+  padding: 0.75rem;
+  background-color: #0575e6; /* Button color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.gpt3__contactus-button:hover {
+  background-color: #00f260; /* Hover color */
+}

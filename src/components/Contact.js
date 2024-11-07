@@ -1,46 +1,41 @@
-import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './custom.css';
-import Form from './Form';
+import React from "react";
+import "../components/contact.css"; // You can style this as needed
 
 const Contact = () => {
-    return (
-        <div className='div-padd'>
-        
-        <div className="hero-section">
-          <Container>
-            
-                <br/>
-                <h1 className="display-4">Contact Us</h1>
-                
-                <br/>
-                <p className="lead">Contact: <u>contact@bravefox.in</u> <br/>Other Enquiries: <u>info@bravefox.in</u>
-                <br/>Careers: <u>careers@bravefox.in</u><p/>
-                <br/>
-                <p>Have questions that you need assistance with? Please fill in the below details and the right respresentative from Brave Fox will be in touch with you soon.</p>
-                <br/>
-                <br/>
-                
-                <Form />
-<br/>
-<br/>
+  return (
+    <div className="gpt3__contactus section__margin" id="contact-us">
+      <div className="gpt3__contactus-header">
+        <h1 className="gradient__text_1">Get in Touch</h1>
+        <p>We're here to help you!</p>
+      </div>
+      <div className="gpt3__contactus-container">
+        <form className="gpt3__contactus-form">
+          <div className="gpt3__contactus-form-group">
+            <label htmlFor="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div className="gpt3__contactus-form-group">
+            <label htmlFor="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div className="gpt3__contactus-form-group">
+            <label htmlFor="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Your Message" required />
+          </div>
+          <button type="submit" className="gpt3__contactus-button">Send Message</button>
+        </form>
+      </div>
+      <div className="work__withus-apply">
+        <br/>
+        <br/>
+        <br/>
+      <p>
+    If you encounter any issues with the above form, please reach out to us at{" "}
+    <a href="mailto:support@mechartista.com">contact@mechartistatechnocrafts.com</a>.
+  </p>
+      </div>
+    </div>
+  );
+};
 
-
-<br/>
-     
-                </p>
-              <p/>
-
-
-
-    
-                
-              
-          </Container>
-        </div>
-        
-        </div>
-    );
-}
 export default Contact;
